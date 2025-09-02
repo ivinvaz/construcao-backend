@@ -5,5 +5,4 @@ function calcularMediaAluno(a1, a2, a3){
     if(a3 === undefined)  return ((a1*0.4)+(a2*0.6))/2;
     return Math.max((((a1*0.4)+(a3*0.6))/2),(((a2*0.6)+(a3*0.4))/2));
 };
-console.log(((6 * 0.4) + (9 * 0.6))/2)
 module.exports = {calcularMediaAluno};

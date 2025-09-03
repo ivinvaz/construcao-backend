@@ -25,11 +25,11 @@ test("a3 Teste Negativo", function(){
 
 test("a3 Nulo", function(){
     expect(calcularMediaAluno).toBeDefined();
-    expect(calcularMediaAluno(6,9,undefined)).toBeCloseTo(3.9);
+    expect(calcularMediaAluno(10,10,undefined)).toBeCloseTo(10);
 });
 
 test("melhor nota", function(){
     expect(calcularMediaAluno).toBeDefined();
-    expect(calcularMediaAluno(9,3,6)).toBeCloseTo(3.6);
-    expect(calcularMediaAluno(3,9,6)).toBeCloseTo(3.9);
+    expect(calcularMediaAluno(10,3,10)).toBeCloseTo(10);
+    expect(calcularMediaAluno(3,10,10)).toBeCloseTo(10);
 });

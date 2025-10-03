@@ -1,0 +1,16 @@
+db.usuarios.updateOne({nome:"Maria"},{$set: {nome:"Maria"}})
+db.usuarios.udpateOne({nome:"Maria"},{$set: {nome:"Maria"}})
+db.usuarios.udpateOne({nome:"Maria"}{$set: {nome:"Maria"}})
+db.usuarios.udpateOne({nome:"Maria"},$set: {nome:"Maria"})
+db.usuarios.find({nome:"Maria"})
+db.usarios.renameCollection("usuarios")
+db.usarios.renameCollection(usuarios)
+db.usarios.find({})
+db.usarios.insertOne({nome:"Maria",email:"maria@iesb.,br",telefone:"6199999999"})
+db.usarios.find({})
+db.usuarios.find({})
+show collections
+db.usarios.insertOne({nome:"Jose",email:"jose@iesb.,br"})
+show collections
+use meubanco
+use local

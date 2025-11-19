@@ -56,7 +56,7 @@ describe('Testes API prática07', function(){
         expect(response.body.preco).toBe(18);
     })
     test("PUT/produtos/:id 422", async function(){
-        const response = await request.put(`${url}/${id}`).send({ nome: ""});
+        const response = await request.put(`${url}/${id}`).send({ nome: ""});z'
         expect(response.status).toBe(422);
         expect(response.header['content-type']).toMatch(/json/);
         expect(response.body.msg).toBe("Nome e preço do produto são obrigatórios");
